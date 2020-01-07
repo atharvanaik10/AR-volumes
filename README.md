@@ -23,7 +23,12 @@ I want to use augmented reality to model a solid of revolution. The first step w
 
 SceneKit is Apple’s built-in software for AR App development. It is housed inside Xcode, which is Apple’s Integrated Development Environment (IDE, read: editor) for Apple app dev. SceneKit was useful for me because of the ease of connecting objects to their respective views in the app and scripting their behaviour. SceneKit makes it seamless to create and reference code in objects, and to work with Xcode and Swift to create an easier app experience. Because of this, I decided to use SceneKit for my project.
 
+![XCode](https://user-images.githubusercontent.com/35256233/71882886-398f1d00-3170-11ea-8fef-7380a098661e.png)
+
 Once I had decided on SceneKit, I created a new app in Xcode, and created its related Views. Each ‘screen’ that the user sees is a new view, hence, I had to create a new view for each button.  The next step was to create the code for each of my AR Views. The code for each ‘AR’ View would be almost exactly the same, with the only difference being the Object that is imported.
+
+![App screenshot](https://user-images.githubusercontent.com/35256233/71882971-64797100-3170-11ea-864e-e0ac5754ee87.png)
+
 
 ### Challenges
 I faced tons of challenges along the way. In the two weeks that we had to finish this project, I had to overcome hurdle after hurdle. The first problem was that I did not know how to build an App, let alone an AR app. This meant that I had to watch tutorials and read the documentation on how I could get started. After this, I had to figure out how I would make 3D objects. My initial idea was to take in user input which would then model a surface of revolution. This was the hardest part of my project, and in the end, I couldn’t find any way to do it. To the best of my knowledge, it had never been done before. Generating 3D shapes in real time based on user input is possible in ARKit, Apple’s AR Software Development Kit (SDK), but it is only possible to do so using Bézier curves, which was a complicated topic with a steep learning curve.
